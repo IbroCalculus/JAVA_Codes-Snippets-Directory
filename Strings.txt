@@ -1,0 +1,26 @@
+
+        String value = "This is a string";
+        int x = value.length();
+
+OTHER methods can be seen after value. E.g: .concat(parameter), .toLowerCase(), .endswith ...
+
+STRING METHODS
+
+equals()
+equalsIgnoreCase()
+length()
+charAt(i) Returns character at index i
+toUpperCase()
+toLowerCase()
+replace(oldValue, newValue)
+trim()
+contains("value")
+toCharArray()
+IsEmpty()
+endsWith()
+startsWith()
+subString(index)
+subString(startIndex, endIndex)
+replace("OldString", "NewString")
+.toCharArray();	//Check Char Array reference
+.split(" ");

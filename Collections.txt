@@ -1,0 +1,4 @@
+
+They are multiple types of collections in Java; ie:
+
+1- Arraylist

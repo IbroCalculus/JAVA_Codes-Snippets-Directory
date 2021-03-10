@@ -1,0 +1,18 @@
+THERE ARE TWO DATA TYPES:
+	- Primitive, and
+	- Reference data type
+
+Check Amigos about 55:00
+=== PRIMITIVE DATA TYPE ===
+byte	1 byte	Stores whole numbers from -128 to 127
+short	2 byte	Stores whole numbers from -32,768 to 32,767
+int	4 bytes	Stores whole numbers from ...		int number = 5;			//
+long	8 bytes	Stores whole numbers from -32,768 to 32,767	long number = 5; 		//More int numbers
+float	4 bytes	Stores whole numbers from -32,768 to 32,767	float number = (float) 5.2 or 3.5f	//float are double by defalut, hence; cast
+		double number = 5.2; 		//More float
+		char something = 'M';
+		char something = 'u\00AE';	//Special unicode symbol for registered
+		char something = '\u00A9';	//Special unicode symbol for copyright
+	CHECK OTHER UNICODE SYMBOLS
+
+=== REFERENCE DATA TYPE ===

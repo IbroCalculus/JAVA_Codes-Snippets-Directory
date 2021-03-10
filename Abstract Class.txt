@@ -1,0 +1,42 @@
+
+Abstract keyword adds a layer of security to a program. This can be applied to both classes and methods with the abstract class.
+Abstract class can not be instantiated, but they can have a subclass
+Abstract methods are declared without an implementation.
+
+
+Assume a parent class Vehicle which is abstract, and a subclass Car. We cannot instantiate the abstract class. i.e: Vehicle
+
+public abstract class Vehicle {
+
+}
+
+public class Car extends Vehicle{
+    
+}
+
+--- Inside main method ----------
+
+    public static void main(String[] args) {
+
+	Vehicle vehicle = new Vehicle ();	<--- This generates an error, because it is abstract, hence, cannot be instantiated.
+        Car car = new Car();
+
+    }
+}
+
+
+==================== ABSTRACT METHODS =================
+Declared within an abstract class. It can not contain a body. ie {}. And the inherited abstract method must be implemented in the child class.
+
+public abstract class Vehicle {
+    abstract void move();
+}
+
+
+public class Car extends Vehicle{
+
+    @Override
+    void move() {
+        System.out.println("The car is moving");
+    }
+}

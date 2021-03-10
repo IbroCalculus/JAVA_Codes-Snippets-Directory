@@ -1,0 +1,1 @@
+Linear data structures, Data are not saved sequentially
